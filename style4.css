@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    background-color:#c942c9;
+    padding: 10px;
+    width: 1255px;
+    height: 46px;
+}
+.Nalpet {
+    text-align: right;
+}
+
+span {
+    width: 55.57px;
+    height: 20px;
+    margin: 0px 0px 0px 4.2px;
+    color: #ffff;
+    font: 14px sans-serif;
+}
+
+.test {
+    width: 45%;    
+    display: flex;
+    height: 74px;
+    color: #ffff;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 auto;
+}
+.container {
+    height: 62px;
+}
+.container2 {
+    /* width: 100%; */
+    height: 62px;
+    color: #58595B;
+    font: 20px sans-serif;
+
+}
+nav ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: bold;
+}
+nav li {
+    padding: 0 20px 10px;
+}
+nav li:hover {
+    border-bottom: 3px solid #e900c6;
+}
+.Galery {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Galery ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center; 
+}
+
+.Galery li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center; 
+}
+
+.Galery img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+.Galery p {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+.nol {
+    display: flex;
+
+    background-color: #c942c9 ;
+    margin-top: 200px;
+    color: #ffff;
+}
+.satu {
+    padding-right: 70px;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+.dua {
+    padding-right: 100px;
+    padding-top: 25px;
+}
+.tiga {
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.empat {
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.lima {
+    padding-top: 25px;
+}
